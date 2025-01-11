@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Doctor AI Model</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+        }
+
+        h1, h2, h3 {
+            color: #ffffff;
+            margin-top: 0;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-top: 40px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            margin-top: 30px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin: 20px 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        a {
+            color: #bb86fc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .image-container {
+            position: relative;
+            width: 100%;
+            margin: 20px 0;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #1f1f1f;
+        }
+
+        .image-container::before {
+            content: "";
+            display: block;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio by default */
+        }
+
+        .project-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* This ensures the image covers the area without distortion */
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .project-image:hover {
+            transform: scale(1.02);
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e1e1e;
+            color: #ccc;
+            font-size: 18px;
+            margin-top: 20px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        code {
+            background-color: #1f1f1f;
+            padding: 2px 4px;
+            border-radius: 4px;
+            color: #bb86fc;
+        }
+        
+        blockquote {
+            border-left: 4px solid #bb86fc;
+            padding-left: 10px;
+            margin: 20px 0;
+            color: #b0b0b0;
+            font-style: italic;
+        }
+
+        .github-link {
+            display: inline-block;
+            background-color: #bb86fc;
+            color: #121212;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .github-link:hover {
+            background-color: #9965f4;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+            
+            p {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Pre-Doctor AI Model</h1>
+
+        <div class="image-container">
+            <img src="images/doctor-doing-a-medical-exam.avif" alt="LawyerGPT Interface" class="project-image">
+        </div>
+
+        <h2>Project Overview</h2>
+        <p>Pre-Doctor AI Model is an innovative healthcare solution that leverages artificial intelligence to provide preliminary medical assessments and guidance. This system acts as a first point of contact for patients, helping to streamline the healthcare process and provide initial medical insights.</p>
+
+        <blockquote>
+            "Bridging the gap between patients and healthcare through intelligent preliminary assessments."
+        </blockquote>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li><strong>Symptom Analysis:</strong> Advanced AI-powered system for analyzing patient symptoms and medical history</li>
+            <li><strong>Risk Assessment:</strong> Preliminary evaluation of potential health risks based on provided information</li>
+            <li><strong>Medical Guidance:</strong> Initial recommendations and guidance for seeking appropriate medical care</li>
+            <li><strong>Healthcare Navigation:</strong> Assistance in determining the appropriate level of care needed</li>
+        </ul>
+
+        <div class="image-container">
+            <img src="images/Surgery.png" alt="LawyerGPT Interface" class="project-image">
+        </div>
+
+        <h2>Technical Implementation</h2>
+        <div class="feature-box">
+            <h3>Core Components</h3>
+            <ul>
+                <li><strong>Natural Language Processing:</strong> For understanding patient descriptions and symptoms</li>
+                <li><strong>Machine Learning Models:</strong> Trained on extensive medical datasets for accurate assessment</li>
+                <li><strong>Knowledge Base:</strong> Comprehensive medical information database</li>
+                <li><strong>User Interface:</strong> Intuitive interaction system for patients</li>
+            </ul>
+        </div>
+
+        <h2>Benefits</h2>
+        <ul>
+            <li><strong>Early Detection:</strong> Helps identify potential health issues at an early stage</li>
+            <li><strong>Healthcare Efficiency:</strong> Reduces unnecessary hospital visits while prioritizing urgent cases</li>
+            <li><strong>Accessibility:</strong> Provides 24/7 access to preliminary medical guidance</li>
+            <li><strong>Resource Optimization:</strong> Helps optimize healthcare resource allocation</li>
+        </ul>
+
+        <h2>Future Development</h2>
+        <p>Our development roadmap includes expanding the system's capabilities with:</p>
+        <ul>
+            <li>Integration with electronic health records</li>
+            <li>Enhanced diagnostic accuracy through continued learning</li>
+            <li>Multiple language support for global accessibility</li>
+            <li>Telemedicine platform integration</li>
+        </ul>
+
+        <a href="https://github.com/Srivi24/AI-Pre-Doctor" class="github-link" target="_blank">View on GitHub</a>
+    </div>
+
+    <footer>
+        &copy; Srivikas Mathesvaran portfolio
+    </footer>
+</body>
+</html>
